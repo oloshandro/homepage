@@ -5,9 +5,64 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
         <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
         <title>My Webpage</title>
     </head>
     <body>
-        hello, homepage
+        <header>
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/kanapki.jpg" alt="" width="60" height="54" class="d-inline-block align-text-bottom">
+                    The Food I Like
+                  </a>
+                </div>
+              </nav>
+        </header>
+
+        <main class="container">
+            <div class="products-containers row"> 
+
+              <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/słone_ciastko.jpg" class="card-img-top" alt="słone_ciastko">
+                <div class="card-body">
+                  <h5 class="card-title">This is a sun-pie</h5>
+                  <p class="text">Some text here</p>
+                  <a href="html/recipe1.html" class="btn btn-primary">To the recipe ...</a>
+                </div>
+              </article>
+
+              <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/oladki.jpg" class="card-img-top" alt="pancakes">
+                <div class="card-body">
+                  <h5 class="card-title">These are pancakes</h5>
+                  <p class="text">Some text here</p>
+                  <a href="html/recipe2.html" class="btn btn-primary">To the recipe ...</a>
+                </div>
+              </article>
+
+              <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/kruasany.jpg" class="card-img-top" alt="croissants">
+                <div class="card-body">
+                  <h5 class="card-title">These are croissants</h5>
+                  <p class="text">Some text here</p>
+                  <a href="html/recipe3.html" class="btn btn-primary">To the recipe ...</a>
+                </div>
+              </article>
+
+              <article class="card col-12 col-sm-6 col-md-4 col-lg-3">
+                <img src="img/śniadanie.jpg" class="card-img-top" alt="rice with bacon and mushrooms">
+                <div class="card-body">
+                  <h5 class="card-title">This is rice with bacon and mushrooms</h5>
+                  <p class="text">Some text here</p>
+                  <a href="html/recipe4.html" class="btn btn-primary">To the recipe ...</a>
+                </div>
+              </article>
+            
+            </div>
+          </main>
     </body>
 </html>
